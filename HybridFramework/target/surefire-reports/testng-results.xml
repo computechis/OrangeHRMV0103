@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32247" started-at="2021-02-25T12:34:14 IST" finished-at="2021-02-25T12:34:46 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32247" started-at="2021-02-25T12:34:14 IST" finished-at="2021-02-25T12:34:46 IST">
+      <class name="com.computech.testcases.TC4_EndToEndTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e]" name="setupSuite" is-config="true" duration-ms="282" started-at="2021-02-25T12:34:14 IST" finished-at="2021-02-25T12:34:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e]" name="setUp" is-config="true" duration-ms="9413" started-at="2021-02-25T12:34:14 IST" finished-at="2021-02-25T12:34:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e]" name="login" duration-ms="11669" started-at="2021-02-25T12:34:23 IST" finished-at="2021-02-25T12:34:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e]" name="tearDownTest" is-config="true" duration-ms="758" started-at="2021-02-25T12:34:35 IST" finished-at="2021-02-25T12:34:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TC4_EndToEndTest.login()[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e]" name="logout" duration-ms="6216" started-at="2021-02-25T12:34:36 IST" finished-at="2021-02-25T12:34:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e]" name="tearDownTest" is-config="true" duration-ms="106" started-at="2021-02-25T12:34:42 IST" finished-at="2021-02-25T12:34:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=TC4_EndToEndTest.logout()[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.computech.testcases.TC4_EndToEndTest@cb644e]" name="tearDown" is-config="true" duration-ms="4052" started-at="2021-02-25T12:34:42 IST" finished-at="2021-02-25T12:34:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.computech.testcases.TC4_EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
